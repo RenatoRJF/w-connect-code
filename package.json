@@ -10,7 +10,8 @@
     "server": "ts-node-esm ./src/api/server.ts",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "pancake": "ts-node-esm ./src/problem-challenge/pancake-flipper.ts"
   },
   "dependencies": {
     "axios": "^1.3.5",

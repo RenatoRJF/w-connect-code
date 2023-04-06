@@ -21,3 +21,8 @@ yarn storybook
 ```
 yarn cypress
 ```
+
+#### Pancake problem
+```
+yarn cypress
+```

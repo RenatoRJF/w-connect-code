@@ -1,4 +1,4 @@
-function happyPancakesFlipper(input: string) {
+export function happyPancakesFlipper(input: string) {
   const matchResult = input.match(/\d/g);
 
   if (matchResult) {
