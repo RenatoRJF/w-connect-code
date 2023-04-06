@@ -24,5 +24,5 @@ yarn cypress
 
 #### Pancake problem
 ```
-yarn cypress
+yarn pancake
 ```
