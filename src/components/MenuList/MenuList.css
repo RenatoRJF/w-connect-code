@@ -1,0 +1,46 @@
+.menu-list {
+}
+
+.menu-list-item {
+  list-style: none;
+  line-height: 40px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.menu-list-sublist {
+  background-color: #fff;
+  color: #000;
+}
+
+.subitem {
+  margin: 0;
+  padding: 0 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-list {
+    display: flex;
+  }
+
+  .menu-list-item {
+    position: relative;
+  }
+
+  .menu-list-item:hover {
+    background-color: #009eee;
+
+    color: #fff;
+  }
+
+  .menu-list-item:hover > .menu-list-sublist {
+    display: block;
+  }
+
+  .menu-list-sublist {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+}
